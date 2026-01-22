@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Hotel DhakaTopi | Luxury Accommodation</title>
+    <meta
+      name="description"
+      content="Experience luxury and comfort at Hotel DhakaTopi. Premium rooms, exceptional service, and unforgettable stays."
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="container">
+          <div class="nav__bar">
+            <div class="logo">
+              <a href="#">
+                <span class="logo-text">Hotel DhakaTopi</span>
+              </a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn" aria-label="Toggle menu">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="btn nav__btn">Book Now</button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header-content">
+          <p class="header-subtitle">Elegance • Comfort • Excellence</p>
+          <h1>
+            Experience Luxury Hospitality<br />At <span>Hotel DhakaTopi</span>.
+          </h1>
+          <div class="header-cta">
+            <a href="#rooms" class="btn btn-secondary">Explore Rooms</a>
+            <a href="#rooms" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container booking__container">
+      <div class="container">
+        <form class="booking__form">
+          <div class="input__group">
+            <div class="input-wrapper">
+              <span><i class="ri-calendar-2-fill"></i></span>
+              <div>
+                <label for="check-in">CHECK-IN DATE</label>
+                <input type="date" id="check-in" required />
+              </div>
+            </div>
+          </div>
+          <div class="input__group">
+            <div class="input-wrapper">
+              <span><i class="ri-calendar-2-fill"></i></span>
+              <div>
+                <label for="check-out">CHECK-OUT DATE</label>
+                <input type="date" id="check-out" required />
+              </div>
+            </div>
+          </div>
+          <div class="input__group">
+            <div class="input-wrapper">
+              <span><i class="ri-user-fill"></i></span>
+              <div>
+                <label for="guest">GUESTS</label>
+                <select id="guest">
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="4+">4+ Guests</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="input__group input__btn">
+            <button class="btn" type="submit">
+              <i class="ri-search-line"></i> CHECK AVAILABILITY
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="container">
+        <div class="about__image">
+          <img src="assets/about.jpg" alt="Hotel DhakaTopi interior" />
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">Where Luxury Meets Hospitality</h2>
+          <p class="section__description">
+            At Hotel DhakaTopi, we blend traditional Nepali warmth with
+            contemporary luxury. Our commitment to excellence ensures every
+            guest experiences unparalleled comfort and personalized service.
+          </p>
+          <div class="features-grid">
+            <div class="feature">
+              <i class="ri-award-fill"></i>
+              <h4>Award Winning</h4>
+              <p>Recognized for exceptional service</p>
+            </div>
+            <div class="feature">
+              <i class="ri-star-fill"></i>
+              <h4>5-Star Service</h4>
+              <p>Premium amenities & facilities</p>
+            </div>
+            <div class="feature">
+              <i class="ri-map-pin-2-fill"></i>
+              <h4>Prime Location</h4>
+              <p>Centrally located in the city</p>
+            </div>
+          </div>
+          <div class="about__btn">
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container" id="rooms">
+      <div class="container">
+        <div class="section-header">
+          <p class="section__subheader">OUR SUITES</p>
+          <h2 class="section__header">Luxury Accommodations</h2>
+          <p class="section__description">
+            Experience comfort in our meticulously designed rooms and suites
+          </p>
+        </div>
+        <div class="room__grid">
+          <div class="room__card">
+            <div class="room__card__image">
+              <img src="assets/room-1.jpg" alt="Deluxe Ocean View Suite" />
+              <div class="room__card__icons">
+                <span class="icon-btn"><i class="ri-heart-line"></i></span>
+                <span class="icon-btn"><i class="ri-eye-line"></i></span>
+                <span class="icon-btn"
+                  ><i class="ri-shield-star-line"></i
+                ></span>
+              </div>
+            </div>
+            <div class="room__card__details">
+              <h4>Deluxe Ocean View</h4>
+              <p>
+                Panoramic ocean views with premium amenities for the ultimate
+                luxury experience.
+              </p>
+              <div class="room-info">
+                <span><i class="ri-user-fill"></i> 2 Guests</span>
+                <span><i class="ri-ruler-fill"></i> 45 m²</span>
+                <span><i class="ri-wifi-fill"></i> WiFi</span>
+              </div>
+              <div class="room-price">
+                <span class="price">From <strong>$299</strong>/night</span>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="room__card">
+            <div class="room__card__image">
+              <img src="assets/room-2.jpg" alt="Executive Cityscape Room" />
+              <div class="room__card__icons">
+                <span class="icon-btn"><i class="ri-heart-line"></i></span>
+                <span class="icon-btn"><i class="ri-eye-line"></i></span>
+                <span class="icon-btn"
+                  ><i class="ri-shield-star-line"></i
+                ></span>
+              </div>
+            </div>
+            <div class="room__card__details">
+              <h4>Executive Cityscape</h4>
+              <p>
+                Modern sophistication with stunning city views, perfect for
+                business travelers.
+              </p>
+              <div class="room-info">
+                <span><i class="ri-user-fill"></i> 2 Guests</span>
+                <span><i class="ri-ruler-fill"></i> 40 m²</span>
+                <span><i class="ri-wifi-fill"></i> WiFi</span>
+              </div>
+              <div class="room-price">
+                <span class="price">From <strong>$199</strong>/night</span>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="room__card">
+            <div class="room__card__image">
+              <img src="assets/room-3.jpg" alt="Family Garden Retreat" />
+              <div class="room__card__icons">
+                <span class="icon-btn"><i class="ri-heart-line"></i></span>
+                <span class="icon-btn"><i class="ri-eye-line"></i></span>
+                <span class="icon-btn"
+                  ><i class="ri-shield-star-line"></i
+                ></span>
+              </div>
+            </div>
+            <div class="room__card__details">
+              <h4>Family Garden Retreat</h4>
+              <p>
+                Spacious family suite with garden access, ideal for creating
+                lasting memories.
+              </p>
+              <div class="room-info">
+                <span><i class="ri-user-fill"></i> 4 Guests</span>
+                <span><i class="ri-ruler-fill"></i> 60 m²</span>
+                <span><i class="ri-wifi-fill"></i> WiFi</span>
+              </div>
+              <div class="room-price">
+                <span class="price">From <strong>$249</strong>/night</span>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="container">
+          <div class="service__content">
+            <p class="section__subheader">SERVICES</p>
+            <h2 class="section__header">Premium Amenities & Facilities</h2>
+            <ul class="service__list">
+              <li>
+                <span class="service-icon"
+                  ><i class="ri-shield-star-fill"></i
+                ></span>
+                <div>
+                  <h4>High Class Security</h4>
+                  <p>24/7 surveillance and professional security personnel</p>
+                </div>
+              </li>
+              <li>
+                <span class="service-icon"
+                  ><i class="ri-24-hours-fill"></i
+                ></span>
+                <div>
+                  <h4>24 Hour Room Service</h4>
+                  <p>Round-the-clock dining and concierge services</p>
+                </div>
+              </li>
+              <li>
+                <span class="service-icon"
+                  ><i class="ri-conference-fill"></i
+                ></span>
+                <div>
+                  <h4>Conference Facilities</h4>
+                  <p>State-of-the-art meeting and event spaces</p>
+                </div>
+              </li>
+              <li>
+                <span class="service-icon"><i class="ri-guide-fill"></i></span>
+                <div>
+                  <h4>Tourist Guide Support</h4>
+                  <p>Expert local guides for personalized tours</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="container">
+        <div class="banner__content">
+          <div class="banner__card">
+            <h4>150+</h4>
+            <p>Luxury Rooms</p>
+          </div>
+          <div class="banner__card">
+            <h4>25+</h4>
+            <p>Awards Won</p>
+          </div>
+          <div class="banner__card">
+            <h4>15,000+</h4>
+            <p>Happy Guests</p>
+          </div>
+          <div class="banner__card">
+            <h4>98%</h4>
+            <p>Guest Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore" id="gallery">
+      <div class="container">
+        <p class="section__subheader">GALLERY</p>
+        <h2 class="section__header">Explore Our Hotel</h2>
+        <div class="explore__bg">
+          <div class="explore__content">
+            <p class="explore-date">Featured Today</p>
+            <h3>Experience Our New Culinary Journey</h3>
+            <p class="explore-description">
+              Indulge in our newly launched gourmet menu crafted by
+              award-winning chefs.
+            </p>
+            <button class="btn btn-outline">Discover More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="logo">
+              <a href="#home">
+                <span class="logo-text">Hotel DhakaTopi</span>
+              </a>
+            </div>
+            <p class="footer-description">
+              Luxury accommodation with authentic Nepali hospitality. Experience
+              comfort, elegance, and exceptional service.
+            </p>
+            <button class="btn">Book Your Stay</button>
+          </div>
+          <div class="footer__col">
+            <h4>QUICK LINKS</h4>
+            <ul class="footer__links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#rooms">Rooms & Suites</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>OUR SERVICES</h4>
+            <ul class="footer__links">
+              <li><a href="#">Spa & Wellness</a></li>
+              <li><a href="#">Fine Dining</a></li>
+              <li><a href="#">Conference Rooms</a></li>
+              <li><a href="#">Airport Transfer</a></li>
+              <li><a href="#">Tour Packages</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>CONTACT US</h4>
+            <ul class="footer__links">
+              <li>
+                <i class="ri-map-pin-2-fill"></i> 123 Luxury Street, Pokhara
+              </li>
+              <li><i class="ri-phone-fill"></i> +977 1 123 4567</li>
+              <li><i class="ri-mail-fill"></i> info@hoteldhakatopi.com</li>
+              <li><i class="ri-time-fill"></i> 24/7 Reception</li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#" aria-label="Facebook"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="ri-instagram-fill"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="ri-twitter-fill"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="ri-youtube-fill"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bar">
+          <p>&copy; 2024 Hotel DhakaTopi. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
