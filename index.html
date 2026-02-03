@@ -15,44 +15,62 @@
     />
   </head>
   <body>
-    <header class="header">
-      <nav>
-        <div class="container">
-          <div class="nav__bar">
-            <div class="logo">
-              <a href="#">
-                <span class="logo-text">Hotel DhakaTopi</span>
-              </a>
-            </div>
-            <div class="nav__menu__btn" id="menu-btn" aria-label="Toggle menu">
-              <i class="ri-menu-line"></i>
-            </div>
+    <!-- HEADER -->
+    <header class="new-header">
+      <div class="container">
+        <div class="header-logo">
+          <div class="logo-text-container">
+            <div class="logo-main">Hotel DhakaTopi</div>
+            <div class="logo-tagline">Luxury & Comfort</div>
           </div>
-          <ul class="nav__links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#rooms">Rooms</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <button class="btn nav__btn">Book Now</button>
         </div>
-      </nav>
-      <div class="section__container header__container" id="home">
-        <div class="header-content">
-          <p class="header-subtitle">Elegance • Comfort • Excellence</p>
-          <h1>
-            Experience Luxury Hospitality<br />At <span>Hotel DhakaTopi</span>.
-          </h1>
-          <div class="header-cta">
-            <a href="#rooms" class="btn btn-secondary">Explore Rooms</a>
-            <a href="#rooms" class="btn btn-primary">Book Now</a>
+
+        <button
+          class="mobile-menu-btn"
+          id="mobile-menu-toggle"
+          aria-label="Toggle menu"
+        >
+          <i class="ri-menu-line" id="mobile-menu-icon"></i>
+        </button>
+
+        <ul class="new-nav-links" id="new-nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#rooms">Rooms & Suites</a></li>
+          <li><a href="#service">Amenities</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header-actions">
+          <div class="header-contact">
+            <i class="ri-phone-fill"></i>
+            <span>+977 1 123 4567</span>
           </div>
         </div>
       </div>
     </header>
 
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <p class="hero-subtitle">Welcome to Luxury Hospitality</p>
+        <h1 class="hero-title">
+          Experience Unforgettable Stays at <span>Hotel DhakaTopi</span>
+        </h1>
+        <p class="hero-description">
+          Nestled in the heart of Nepal, Hotel DhakaTopi offers a perfect blend
+          of traditional Nepali hospitality and modern luxury. Experience
+          world-class amenities and breathtaking views.
+        </p>
+        <div class="hero-cta">
+          <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+          <a href="#contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
     <section class="section__container booking__container">
       <div class="container">
         <form class="booking__form">
@@ -98,6 +116,7 @@
       </div>
     </section>
 
+    <!-- ABOUT SECTION -->
     <section class="section__container about__container" id="about">
       <div class="container">
         <div class="about__image">
@@ -135,6 +154,7 @@
       </div>
     </section>
 
+    <!-- ROOMS SECTION -->
     <section class="section__container room__container" id="rooms">
       <div class="container">
         <div class="section-header">
@@ -233,6 +253,7 @@
       </div>
     </section>
 
+    <!-- SERVICES SECTION -->
     <section class="service" id="service">
       <div class="section__container service__container">
         <div class="container">
@@ -260,7 +281,7 @@
               </li>
               <li>
                 <span class="service-icon"
-                  ><i class="ri-conference-fill"></i
+                  ><i class="ri-presentation-fill"></i
                 ></span>
                 <div>
                   <h4>Conference Facilities</h4>
@@ -280,6 +301,7 @@
       </div>
     </section>
 
+    <!-- BANNER SECTION -->
     <section class="section__container banner__container">
       <div class="container">
         <div class="banner__content">
@@ -303,6 +325,7 @@
       </div>
     </section>
 
+    <!-- GALLERY SECTION -->
     <section class="explore" id="gallery">
       <div class="container">
         <p class="section__subheader">GALLERY</p>
@@ -321,6 +344,7 @@
       </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="footer" id="contact">
       <div class="container">
         <div class="section__container footer__container">
